@@ -21,7 +21,11 @@ const Hero = () => {
           />
         </div>
         
-        <p className="animate-fade-up-delay-2 mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+        <h2 className="animate-fade-up-delay-1 mt-4 text-xl sm:text-2xl md:text-3xl font-medium text-primary">
+          A hub for all events
+        </h2>
+        
+        <p className="animate-fade-up-delay-2 mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
           AI-powered unified app centralizes events in one hub, uses Big Data & SaaS. 
           It revolutionizes and automates the event management industry by offering a 
           comprehensive solution for attendees seeking meaningful interactions and organizers 
