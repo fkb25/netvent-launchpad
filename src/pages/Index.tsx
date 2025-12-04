@@ -1,8 +1,6 @@
 import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Features from "@/components/landing/Features";
-import Mission from "@/components/landing/Mission";
-import Vision from "@/components/landing/Vision";
 import Footer from "@/components/landing/Footer";
 
 const Index = () => {
@@ -11,8 +9,6 @@ const Index = () => {
       <Header />
       <Hero />
       <Features />
-      <Mission />
-      <Vision />
       <Footer />
     </main>
   );

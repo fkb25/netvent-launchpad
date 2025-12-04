@@ -26,19 +26,14 @@ const Hero = () => {
         </h2>
         
         <p className="animate-fade-up-delay-2 mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          AI-powered unified app centralizes events in one hub, uses Big Data & SaaS. 
-          It revolutionizes and automates the event management industry by offering a 
-          comprehensive solution for attendees seeking meaningful interactions and organizers 
-          aiming for easier & efficient event management operations.
+          We revolutionizes the event management industry.
+          By using using AI, Big data, & SAAS, we provide organizers comprehensive tools for end-to-end event management automation, while attendees enjoy a seamless experience & long-lasting engagements
         </p>
         
-        <div className="animate-fade-up-delay-3 mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="animate-fade-up-delay-3 mt-10 flex justify-center">
           <Button variant="hero" size="lg" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90">
             <Download className="mr-2 h-5 w-5" />
             Download the App
-          </Button>
-          <Button variant="outline" size="lg" className="border-primary/30 hover:bg-primary/10">
-            Learn More
           </Button>
         </div>
       </div>
