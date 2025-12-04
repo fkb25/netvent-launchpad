@@ -6,25 +6,25 @@
 
 @layer base {
   :root {
-    --background: 220 20% 98%;
-    --foreground: 220 14% 10%;
+    --background: 230 25% 95%;
+    --foreground: 243 54% 22%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 14% 10%;
+    --card: 230 20% 98%;
+    --card-foreground: 243 54% 22%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 14% 10%;
+    --popover: 230 20% 98%;
+    --popover-foreground: 243 54% 22%;
 
-    --primary: 217 91% 60%;
+    --primary: 243 54% 32%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 260 60% 58%;
+    --secondary: 243 40% 45%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 220 14% 96%;
     --muted-foreground: 220 9% 46%;
 
-    --accent: 172 66% 50%;
+    --accent: 210 60% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -32,16 +32,16 @@
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 217 91% 60%;
+    --ring: 243 54% 32%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(260 60% 58%) 50%, hsl(172 66% 50%) 100%);
-    --section-alt: 220 20% 96%;
-    --glow-primary: 217 91% 60%;
-    --glow-secondary: 260 60% 58%;
-    --glow-accent: 172 66% 50%;
+    --hero-gradient: linear-gradient(135deg, hsl(243 54% 32%) 0%, hsl(243 40% 45%) 50%, hsl(210 60% 50%) 100%);
+    --section-alt: 230 25% 92%;
+    --glow-primary: 243 54% 32%;
+    --glow-secondary: 243 40% 45%;
+    --glow-accent: 210 60% 50%;
   }
 
   .dark {
