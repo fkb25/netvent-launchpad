@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Download, Sparkles } from "lucide-react";
+import { Download } from "lucide-react";
 import netventLogo from "@/assets/netvent-logo.jpeg";
 
 const Hero = () => {
@@ -13,15 +13,10 @@ const Hero = () => {
       </div>
       
       <div className="container-narrow text-center relative">
-        <div className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary mb-6">
-          <Sparkles className="h-4 w-4" />
-          AI-Powered Event Platform
-        </div>
-        
         <div className="animate-fade-up flex justify-center">
           <img 
             src={netventLogo} 
-            alt="Netvent - Events united, engagements elevated" 
+            alt="NetVent" 
             className="w-64 sm:w-72 md:w-80 lg:w-96 h-auto"
           />
         </div>
