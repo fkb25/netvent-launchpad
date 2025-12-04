@@ -6,42 +6,42 @@
 
 @layer base {
   :root {
-    --background: 230 25% 95%;
-    --foreground: 243 54% 22%;
+    --background: 0 0% 100%;
+    --foreground: 256 47% 28%;
 
-    --card: 230 20% 98%;
-    --card-foreground: 243 54% 22%;
+    --card: 0 0% 100%;
+    --card-foreground: 256 47% 28%;
 
-    --popover: 230 20% 98%;
-    --popover-foreground: 243 54% 22%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 256 47% 28%;
 
-    --primary: 243 54% 32%;
+    --primary: 256 47% 38%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 243 40% 45%;
+    --secondary: 256 35% 52%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 256 15% 96%;
+    --muted-foreground: 256 15% 45%;
 
-    --accent: 210 60% 50%;
+    --accent: 256 60% 65%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 243 54% 32%;
+    --border: 256 15% 90%;
+    --input: 256 15% 90%;
+    --ring: 256 47% 38%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(243 54% 32%) 0%, hsl(243 40% 45%) 50%, hsl(210 60% 50%) 100%);
-    --section-alt: 230 25% 92%;
-    --glow-primary: 243 54% 32%;
-    --glow-secondary: 243 40% 45%;
-    --glow-accent: 210 60% 50%;
+    --hero-gradient: linear-gradient(135deg, hsl(256 47% 38%) 0%, hsl(256 35% 52%) 50%, hsl(256 60% 65%) 100%);
+    --section-alt: 256 15% 97%;
+    --glow-primary: 256 47% 38%;
+    --glow-secondary: 256 35% 52%;
+    --glow-accent: 256 60% 65%;
   }
 
   .dark {
