@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import netventLogo from "@/assets/netvent-logo.jpeg";
 
 const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
       <div className="container mx-auto flex h-16 items-center justify-between px-6">
-        <a href="/" className="text-xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-          Netvent
+        <a href="/">
+          <img src={netventLogo} alt="Netvent - Events united, engagements elevated" className="h-10 w-auto" />
         </a>
         
         <nav className="flex items-center gap-4">

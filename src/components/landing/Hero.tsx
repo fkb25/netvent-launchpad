@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Download, Sparkles } from "lucide-react";
+import netventLogo from "@/assets/netvent-logo.jpeg";
 
 const Hero = () => {
   return (
@@ -17,15 +18,13 @@ const Hero = () => {
           AI-Powered Event Platform
         </div>
         
-        <h1 className="animate-fade-up text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-          <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Netvent
-          </span>
-        </h1>
-        
-        <p className="animate-fade-up-delay-1 mt-4 text-xl font-semibold text-foreground/80 sm:text-2xl md:text-3xl">
-          A hub for <span className="text-primary">all events</span>
-        </p>
+        <div className="animate-fade-up flex justify-center">
+          <img 
+            src={netventLogo} 
+            alt="Netvent - Events united, engagements elevated" 
+            className="w-64 sm:w-72 md:w-80 lg:w-96 h-auto"
+          />
+        </div>
         
         <p className="animate-fade-up-delay-2 mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
           AI-powered unified app centralizes events in one hub, uses Big Data & SaaS. 
