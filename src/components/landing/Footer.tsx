@@ -54,9 +54,16 @@ const Footer = () => {
             className="h-16 w-auto"
           />
           
-          <h2 className="mt-8 text-xl font-semibold text-foreground">
-            For business inquiries:
-          </h2>
+          <div className="mt-8 flex items-center gap-2 text-muted-foreground">
+            <Mail className="h-4 w-4 text-primary" />
+            <span className="text-sm">For business inquiries:</span>
+          </div>
+          <a
+            href="mailto:contact@netvent.app"
+            className="mt-2 text-base font-medium text-primary transition-all hover:text-secondary hover:underline"
+          >
+            contact@netvent.app
+          </a>
         </div>
 
         {/* Contact Form */}
@@ -92,7 +99,7 @@ const Footer = () => {
                 <Input
                   id="phone"
                   type="tel"
-                  placeholder="+966 5X XXX XXXX"
+                  placeholder="+1 (234) 567-8900"
                   value={formData.phone}
                   onChange={(e) => handleChange("phone", e.target.value)}
                 />
