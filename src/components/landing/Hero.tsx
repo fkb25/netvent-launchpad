@@ -21,12 +21,9 @@ const Hero = () => {
           />
         </div>
         
-        <h2 className="animate-fade-up-delay-1 mt-4 text-xl sm:text-2xl md:text-3xl font-medium text-primary">
-          A hub for all events
-        </h2>
-        
-        <p className="animate-fade-up-delay-2 mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+        <p className="animate-fade-up-delay-1 mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
           We revolutionizes the event management industry.
+          <br />
           By using using AI, Big data, & SAAS, we provide organizers comprehensive tools for end-to-end event management automation, while attendees enjoy a seamless experience & long-lasting engagements
         </p>
         

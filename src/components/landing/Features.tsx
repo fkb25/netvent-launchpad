@@ -94,13 +94,12 @@ const Features = () => {
             Features
           </span>
           <h2 className="text-3xl font-bold text-foreground sm:text-4xl md:text-5xl mb-4">
-            Everything You Need for{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Seamless Events
+              A hub for all events
             </span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Powerful tools for attendees and organizers to create unforgettable event experiences.
+          <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            Powerful tools for organizers aiming for comprehensive & efficient event management operations & attendees seeking immersive & seamless event experiences.
           </p>
         </div>
 
